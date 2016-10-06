@@ -10,7 +10,13 @@ body {
   color: #545454;
   background: #F7F7F7;
 }
-
+#title-wrapper {
+  width: 100px;
+  margin: 0 auto;
+}
+#title {
+  font-family: 'Lalezar', cursive;
+}
 #page-wrapper {
   width: 550px;
   margin: 2.5em auto;
@@ -21,7 +27,7 @@ body {
 
 #new-todo-form {
   padding: 0.5em;
-  background: #0088CC;
+  background: #FFF;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
